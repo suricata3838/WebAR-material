@@ -4392,31 +4392,31 @@
   ],
   "images": [
     {
-      "uri": "Shader_NoneBlack.jpg",
+      "uri": "./Shader_NoneBlack.jpg",
       "name": "Shader_NoneBlack"
     },
     {
-      "uri": "Shader_NoneNormal.png",
+      "uri": "./Shader_NoneNormal.png",
       "name": "Shader_NoneNormal"
     },
     {
-      "uri": "F00_000_00_Face_00_nml.png",
+      "uri": "./F00_000_00_Face_00_nml.png",
       "name": "F00_000_00_Face_00_nml"
     },
     {
-      "uri": "F00_002_02_Body_00_nml.png",
+      "uri": "./F00_002_02_Body_00_nml.png",
       "name": "F00_002_02_Body_00_nml"
     },
     {
-      "uri": "F00_000_HairBack_00_nml.png",
+      "uri": "./F00_000_HairBack_00_nml.png",
       "name": "F00_000_HairBack_00_nml"
     },
     {
-      "uri": "F00_000_Hair_00_spe.jpg",
+      "uri": "./F00_000_Hair_00_spe.jpg",
       "name": "F00_000_Hair_00_spe"
     },
     {
-      "uri": "F00_000_Hair_00_nml.png",
+      "uri": "./F00_000_Hair_00_nml.png",
       "name": "F00_000_Hair_00_nml"
     }
   ],
