@@ -12,7 +12,7 @@
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/suricata3838/WebAR-material/master/MioTest1/MioRoidOriginal/MioRoidOriginal.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="./MioTest1/MioRoidOriginal/MioRoidOriginal.gltf"></a-asset-item>
             <a-asset-item id="animated-asset2" src="./broadtail_moor_goldfish/scene.gltf"></a-asset-item>
             <a-asset-item id="animated-asset3" src="./phoenix_bird/scene.gltf"></a-asset-item>
         </a-assets>
@@ -21,7 +21,8 @@
             <a-entity
                 position="0 0 0"
                 gltf-model="#animated-asset2"
-                scale="0.1">
+                scale="0.1"
+                animation-mixer>
             </a-entity>
         </a-marker>
 
@@ -29,15 +30,16 @@
             <a-entity
                 position="0 0 0"
                 gltf-model="#animated-asset"
-                scale="2">
+                scale="2"
+                animation-mixer>
             </a-entity>
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='5'>
             <a-entity
-                position="0 0 0"
+                position="-1 0 -3"
                 gltf-model="#animated-asset3"
-                scale="0.01">
+                scale="0.001">
             </a-entity>
         </a-marker>
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> 
