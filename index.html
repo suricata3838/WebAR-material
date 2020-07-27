@@ -12,7 +12,7 @@
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
         <a-assets>
-            <a-asset-item id="dragon" response-type="arraybuffer" src="./glb-assets/dragon.glb"></a-asset-item>
+            <a-asset-item id="dragon" src="./glb-assets/dragon.glb"></a-asset-item>
             <a-asset-item id="tiger" response-type="arraybuffer" src="./glb-assets/tiger.glb"></a-asset-item>
             <a-asset-item id="milk" response-type="arraybuffer" src="./glb-assets/MsMilk.glb"></a-asset-item>
             <a-asset-item id="bird" response-type="arraybuffer" src="https://cdn.glitch.com/1061d524-9d0f-4b25-97fd-48ebd0fce63c%2Fsceneglb.glb?1546534633849"></a-asset-item>
@@ -29,7 +29,7 @@
 
         <a-marker type='barcode' value='6'>
             <a-entity
-                position="0 -10 -2"
+                position="0 -1 -2"
                 gltf-model="#tiger"
                 scale="0.3 0.3 0.3"
                 animation-mixer>
