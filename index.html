@@ -15,6 +15,7 @@
             <a-asset-item id="animated-asset" src="./MioTest1/MioRoidOriginal/MioRoidOriginal.gltf"></a-asset-item>
             <a-asset-item id="animated-asset2" src="./broadtail_moor_goldfish/scene.gltf"></a-asset-item>
             <a-asset-item id="animated-asset3" src="./phoenix_bird/scene.gltf"></a-asset-item>
+            <a-asset-item id="bird" response-type="arraybuffer" src="https://cdn.glitch.com/1061d524-9d0f-4b25-97fd-48ebd0fce63c%2Fsceneglb.glb?1546534633849"></a-asset-item>
         </a-assets>
 
         <a-marker type='barcode' value='7'>
@@ -36,11 +37,7 @@
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='5'>
-            <a-entity
-                position="0 0 0"
-                gltf-model="#animated-asset3"
-                scale="0.001">
-            </a-entity>
+           <a-entity gltf-model="#bird" scale="0.005 0.005 0.005" animation-mixer="clip:Take 001; loop:1; timeScale: 5; crossFadeDuration: 1"></a-entity>
         </a-marker>
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> 
   MioTest1.glb
